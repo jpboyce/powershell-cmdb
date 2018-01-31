@@ -3,7 +3,7 @@
 #Requires -Version 4
 
 
-function Get-Windows_CPU {
+function Get-WindowsProcessor {
     #$session = New-CimSession -ComputerName localhost
     $inst = Get-CimInstance -ComputerName localhost -ClassName Win32_Processor
     $inst
